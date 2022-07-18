@@ -31,11 +31,11 @@ WHERE PERSON_ID = (
 
 
 
-##Installing mysql server from zipped file
-# download mysql zipped file
-# extract is in any location e.g C:\sandeep\devenv\mysql-8.0.29-winx64
-# add C:\sandeep\devenv\mysql-8.0.29-winx64\bin to system variable
-# create folder with name "data" under C:\sandeep\devenv\mysql-8.0.29-winx64\
-# from cmd, run 
-  >mysqld --initialize --console => to initialize
-  >mysqld --console => to start server
+#Installing mysql server from zipped file
+1. download mysql zipped file
+2. extract is in any location e.g C:\sandeep\devenv\mysql-8.0.29-winx64
+3. add C:\sandeep\devenv\mysql-8.0.29-winx64\bin to system variable
+4. create folder with name "data" under C:\sandeep\devenv\mysql-8.0.29-winx64\
+5. from cmd, run 
+  > mysqld --initialize --console => to initialize
+  > mysqld --console => to start server
