@@ -28,3 +28,14 @@ WHERE PERSON_ID = (
   ORDER BY t.max_person_id ASC 
   FETCH FIRST 1 ROW ONLY
 )
+
+
+
+##Installing mysql server from zipped file
+# download mysql zipped file
+# extract is in any location e.g C:\sandeep\devenv\mysql-8.0.29-winx64
+# add C:\sandeep\devenv\mysql-8.0.29-winx64\bin to system variable
+# create folder with name "data" under C:\sandeep\devenv\mysql-8.0.29-winx64\
+# from cmd, run 
+  >mysqld --initialize --console => to initialize
+  >mysqld --console => to start server
