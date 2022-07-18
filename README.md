@@ -39,3 +39,9 @@ WHERE PERSON_ID = (
 5. from cmd, run 
   > mysqld --initialize --console => to initialize
   > mysqld --console => to start server
+
+6. Connect to server with client. FI failing to connect because of password then create a file named mysql-init.txt with below content in any location
+   SET PASSWORD FOR 'root'@'localhost' = '';
+   
+7. restart server with this file
+   > C:\Users\SK098144>mysqld --init-file=C:\\sandeep\\devenv\\mysql-init.txt --console 
